@@ -1,0 +1,61 @@
+.App button{
+    cursor: pointer;
+}
+.App button:hover{
+    background-color: magenta;
+    color: black;
+    border-color: black;
+
+}
+.App input:hover{
+    background-color: lightgray;
+    border-color: black;
+}
+.App input{
+
+    border: 3px solid magenta;
+    transition: .5s;
+    padding: 10px 20px;
+    margin-left: 40%;
+
+
+    
+}
+.App button {
+
+    border: 3px solid magenta;
+    transition: .5s;
+    padding: 10px 20px;
+}
+
+.App {
+    background-color: turquoise;
+
+    padding-top: 10%;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    margin-top: 3%;
+    line-height: 30px;
+}
+
+h6 {
+    font-size: 48px;
+    font-style:italic;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+h2 {
+    font-size: 32px;
+    font-weight: unset;
+}
+h3, h1 {
+    font-size: 48px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h5 {
+    text-align: right;
+    font-style: italic;
+    font-weight: unset;
+}
