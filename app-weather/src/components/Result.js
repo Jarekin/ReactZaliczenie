@@ -56,7 +56,7 @@ const Result = props => {
         <div className="result">
             
             {errory ? `Nie ma w bazie ${miasto} ` : content}
-            <br/><h5>{`Jarosław Wielgołaski INIS4_FD2`}<br/><br/><br/><br/><br/><br/><br/><br/></h5><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><h5>{`Jarosław Wielgołaski INIS4_FD2`}<br/>{`Tomasz Panek INIS4_FD2`}<br/><br/><br/><br/><br/><br/><br/></h5><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </div>
 
     );
